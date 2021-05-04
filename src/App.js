@@ -1,8 +1,18 @@
+import { Card } from "./components/Card";
+import GlobalStyle from "./styled/global";
+import { Main } from "./styled/layout";
 
 function App() {
+
   return (
-    <h1>hola</h1>
+     <>
+        <GlobalStyle />
+        <Main>
+            <Card />
+        </Main>
+    </>
   );
+
 }
 
 export default App;
