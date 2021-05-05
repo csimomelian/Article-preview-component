@@ -16,6 +16,13 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
 
+### Links
+
+- Solution URL: [here](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
+
+- Live Site URL: [here](https://csimomelian.github.io/article-preview-component/)
+
+
 ## Author
 
 - Frontend Mentor - [@csimomelian](https://www.frontendmentor.io/profile/csimomelian)

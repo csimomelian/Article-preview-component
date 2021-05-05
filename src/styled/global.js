@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { device } from '../utils/breakpoints';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -14,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
     :root {
 
-        font-size:62.25%;
+        font-size:56.25%;
         width:100%;
         height:100%;
 
@@ -24,6 +25,12 @@ const GlobalStyle = createGlobalStyle`
         --color-light-grayish-blue: hsl(210, 46%, 95%);
         --color-white: hsl(0, 0%, 100%);
 
+        @media ${device.laptop} { 
+            
+            font-size:62.25%;
+
+        }
+
     }
 
     body {
@@ -32,10 +39,14 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Manrope', sans-serif;
         padding:3rem;
         min-height:100%;
+        background-color: var(--color-light-grayish-blue);
+        display:flex;
+    }
+
+    #root {
         display:flex;
         flex-direction:column;
-        background-color: var(--color-light-grayish-blue);
-        
+        flex-grow:1;
     }
 
 `;
