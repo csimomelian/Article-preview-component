@@ -20,7 +20,7 @@ const Card = styled.div`
 
 const CardImage = styled.div`
 
-    flex: 0 0 21.2rem;
+    flex: 0 0 25rem;
     overflow: hidden;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -256,7 +256,7 @@ const RRSSIcons = styled.div`
     img {
         cursor:pointer;
     }
-    
+
     & {
         img + img {
             margin-left:1.6rem;
