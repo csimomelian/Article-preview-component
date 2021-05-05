@@ -1,6 +1,6 @@
 import { Card } from "./components/Card";
 import GlobalStyle from "./styled/global";
-import { Main } from "./styled/layout";
+import { Footer, Main } from "./styled/layout";
 
 function App() {
 
@@ -10,6 +10,12 @@ function App() {
         <Main>
             <Card />
         </Main>
+        <Footer>
+          <p class="attribution">
+            Challenge by <a rel="noreferrer" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a rel="noreferrer" href="https://github.com/csimomelian">omisc</a>.
+          </p>
+      </Footer>
     </>
   );
 

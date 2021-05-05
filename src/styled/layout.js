@@ -9,6 +9,23 @@ const Main = styled.main`
 
 `;
 
+const Footer = styled.footer`
+
+    position: absolute;
+    bottom:5px;
+    text-align:center;
+    left:0;
+    right:0;
+
+    a {
+        color: var(--color-very-dark-grayish-blue);
+        text-decoration:none;
+        font-weight: 700;
+    }
+
+`;
+
 export {
-    Main
+    Main,
+    Footer
 }
